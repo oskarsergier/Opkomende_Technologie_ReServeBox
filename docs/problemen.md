@@ -23,7 +23,7 @@ Dit probleem was er omdat de draden geschakeld waren op de pinnen TX en RX. Deze
 <p align="center">
 </p>
 
-* [Voorbeeld code](/tests/Voorbeeld%20code/Vb_code_touch_pad/Vb_code_touch_pad.ino)
+* [Voorbeeld code](/arduino/Voorbeeld%20code/Vb_code_touch_pad/Vb_code_touch_pad.ino)
 
 ### Code lockers
 Om de lockers te kunnen openen met de keypad werd de voorbeeldcode aangepast naar een code die gebruikt kan worden om lockers open te doen die na een bepaalde tijd weer sluit. De code is ook voorzien van een knop die controleert indien de code correct is (Dit is de "#" op de keypad). Ook is deze voorzien van een knop om de code te wissen indien de foute code ingegeven werd. (Dit is het "*" op de keypad)
@@ -35,7 +35,7 @@ Om de lockers te kunnen openen met de keypad werd de voorbeeldcode aangepast naa
 <p align="center">
 </p>
 
-* [Voorlopige code](/tests/Code%20lockers/code_touchpad/code_touchpad.ino)
+* [Voorlopige code](/arduino/Code%20lockers/code_touchpad/code_touchpad.ino)
 
 ### Voorbeeld code display
 
