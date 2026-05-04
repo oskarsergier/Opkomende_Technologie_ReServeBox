@@ -6,19 +6,19 @@ Vooralleer er begonnen werd met programmeren werd er informatie opgezocht over d
 * Indien de informatie gevolgd werd over de keypad, dan werd er geen info ingelezen in de seriële monitor (er kwam altijd een error op).
 Dit kwam omdat de TX pin van de keypad aangesloten was op de TX pin van de arduino en idem voor de RX pin. Dit kwam omdat de twee pinnen die informatie (TX) versturen aan elkaar geschakeld waren en kreeg de keypad geen informatie binnen, idem voor de RX pinnen. Dus werd de conclusie gemaakt dat de draden verwisseld moesten worden. 
 We kregen telkens volgende error:
-![alt text](/img/Error.png)
+![alt text](/imgs/Error.png)
 
 <p align="center">
 </p>
 
 * Tijdens het testen verkregen we enkel hokjes te zien op de        seriële monitor. 
 Dit probleem was er omdat de draden geschakeld waren op de pinnen TX en RX. Deze twee poorten zorgen ervoor dat er data van de keypad naar de arduino gestuurd kan worden en omgekeerd. Dit zorgde er voor dat de arduino zegmaar twee seriële monitoren had en deze werkten elkaar tegen. Na enkele testen werd er vastgesteld dat de TX en RX pinnen moesten gewijzigd worden door de pinnen 2 en 3 op de arduino.
-![alt text](/img/hok.png)
+![alt text](/imgs/hok.png)
 
 <p align="center">
 </p>
 
-![alt text](/img/OP1.jpg)
+![alt text](/imgs/OP1.jpg)
 
 <p align="center">
 </p>
