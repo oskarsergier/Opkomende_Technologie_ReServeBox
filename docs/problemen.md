@@ -11,7 +11,7 @@ We kregen telkens volgende error:
 <p align="center">
 </p>
 
-* Tijdens het testen verkregen we enkel hokjes te zien op de        seriële monitor. 
+* Tijdens het testen verkregen we enkel hokjes te zien op de seriële monitor. 
 Dit probleem was er omdat de draden geschakeld waren op de pinnen TX en RX. Deze twee poorten zorgen ervoor dat er data van de keypad naar de arduino gestuurd kan worden en omgekeerd. Dit zorgde er voor dat de arduino zegmaar twee seriële monitoren had en deze werkten elkaar tegen. Na enkele testen werd er vastgesteld dat de TX en RX pinnen moesten gewijzigd worden door de pinnen 2 en 3 op de arduino.
 ![alt text](/imgs/hok.png)
 
@@ -44,5 +44,8 @@ Om de lockers te kunnen openen met de keypad werd de voorbeeldcode aangepast naa
 * [Voorbeeld code display](/arduino/HelloWorld_LCD_GROVE/HelloWorld_LCD_GROVE.ino)
 
 ### Eind code
+
+max 3 fouten + 3min timer
+6 codes hardcoded
 
 * [Code laatste versie](/arduino/Code_laatste_versie/Code_laatste_versie.ino)
