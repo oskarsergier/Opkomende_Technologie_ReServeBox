@@ -12,7 +12,9 @@ De lijst met de nodige componenten voor dit project zijn terug te vinden in [Req
 
 De opbouw en technische uitwerking van het systeem worden beschreven in [Prototype](/docs/fysiek_prototype.md).
 
-![arduino](imgs/OIP.jpg)
+##### [Finale versie van de code](/arduino/Code_laatste_versie/Code_laatste_versie.ino)
+
+![FOTO komt nog]()
 
 ## Contributors
 * Oskar Sergier

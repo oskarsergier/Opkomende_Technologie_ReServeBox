@@ -1,7 +1,9 @@
 # Fysiek prototype
 
-In dit bestand kun je meer info vinden over hoe alles te verbinden.
+![alt text](/imgs/schema%20arduino.jpg)
 
+<p align="center">
+</p>
 
 ## wiring diagrama
 
