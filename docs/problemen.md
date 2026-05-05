@@ -67,6 +67,8 @@ Tijdens de implementatie van deze functionaliteit trad er opnieuw een fout op. D
 Na deze aanpassing traden er nog enkele bijkomende foutmeldingen op, die veroorzaakt werden door ontbrekende puntkomma’s. Na het corrigeren van deze kleine fouten functioneerde de code opnieuw correct.
 
 
-![alt text](foto totale opstelling)
+![alt text](/imgs/OPE.jpg)
+
+![alt text](/imgs/OPP.jpg)
 
 * [Code laatste versie](/arduino/Code_laatste_versie/Code_laatste_versie.ino)
