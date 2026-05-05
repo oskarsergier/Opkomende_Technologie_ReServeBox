@@ -51,7 +51,7 @@ Na verdere analyse (met ondersteuning van AI) werd vastgesteld dat de werkelijke
 
 Tot slot werd bijkomende feedback toegepast om de code te optimaliseren en de leesbaarheid te verbeteren.
 
-![alt text](foto opstelling met display)
+![alt text](/imgs/OPD_LCD1.jpg)
 
 
 [info](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
@@ -62,5 +62,8 @@ Tot slot werd bijkomende feedback toegepast om de code te optimaliseren en de le
 
 max 3 fouten + 3min timer
 6 codes hardcoded
+
+
+![alt text](foto totale opstelling)
 
 * [Code laatste versie](/arduino/Code_laatste_versie/Code_laatste_versie.ino)
