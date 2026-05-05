@@ -1,4 +1,4 @@
-# Opdracht opkomende technologieën
+# Opdracht Opkomende Technologieën
 
 Dit project wordt gecombineerd met het vak Gebruiksgericht Ontwerpen, waarin een product wordt ontwikkeld dat voedselverspilling tegengaat en een efficiënte voedselherverdeling mogelijk maakt binnen stedelijke omgevingen. Het systeem bestaat uit een combinatie van een app en een slim lockersysteem, waarbij gebruikers eenvoudig voedselpakketten kunnen reserveren en ophalen.
 

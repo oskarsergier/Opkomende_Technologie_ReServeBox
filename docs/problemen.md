@@ -39,6 +39,21 @@ Om de lockers te kunnen openen met de keypad werd de voorbeeldcode aangepast naa
 
 ### Voorbeeld code display
 
+Tijdens de ontwikkeling van de Arduino-code voor het ReServeBox-project traden er fouten op bij het integreren van de code voor de LCD-Display in de bestaande code. Deze foutmeldingen verschenen pas wanneer de LCD-code werd toegevoegd aan de reeds werkende code.
+
+Om de oorzaak te achterhalen, werden alle componenten opnieuw afzonderlijk getest. In deze fase functioneerde elk onderdeel, inclusief de LCD en keypad, correct met hun voorbeeld code.
+
+Bij het opnieuw samenvoegen van de verschillende codes ontstonden echter weer problemen. Later bleek dat er twee regels code ontbraken. Na het corrigeren hiervan bleef de compiler foutmeldingen geven. Er werd specifiek aangegeven dat er in het begin van de code een puntkomma ontbrak.
+
+Wanneer deze puntkomma op de aangeduide plaats werd toegevoegd, resulteerde dit in meerdere bijkomende foutmeldingen. Eén van deze fouten verwees naar een regel binnen de keypad-code, hoewel deze code afzonderlijk wel correct werkte.
+
+Na verdere analyse (met ondersteuning van AI) werd vastgesteld dat de werkelijke oorzaak zich onderaan de code bevond, waar effectief een puntkomma ontbrak. Na het toevoegen van deze ontbrekende puntkomma verdwenen alle foutmeldingen en functioneerde de geïntegreerde code correct.
+
+Tot slot werd bijkomende feedback toegepast om de code te optimaliseren en de leesbaarheid te verbeteren.
+
+![alt text](foto opstelling met display)
+
+
 [info](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
 
 * [Voorbeeld code display](/arduino/HelloWorld_LCD_GROVE/HelloWorld_LCD_GROVE.ino)
