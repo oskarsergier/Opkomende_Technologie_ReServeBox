@@ -14,7 +14,7 @@ De opbouw en technische uitwerking van het systeem worden beschreven in [Prototy
 
 ##### [Finale versie van de code](/arduino/Code_laatste_versie/Code_laatste_versie.ino)
 
-![FOTO komt nog]()
+![3D-Print](/imgs/OPP.jpg)
 
 ## Contributors
 * Oskar Sergier
