@@ -60,8 +60,11 @@ Tot slot werd bijkomende feedback toegepast om de code te optimaliseren en de le
 
 ### Eind code
 
-max 3 fouten + 3min timer
-6 codes hardcoded
+Na het oplossen van alle initiële fouten werd de code verder verfijnd volgens de wensen van de gebruiker. Zo werd er gevraagd om een beveiliging in te bouwen waarbij het aantal foutief ingevoerde codes beperkt wordt tot maximaal drie pogingen. Wanneer drie keer een verkeerde code wordt ingevoerd, wordt het systeem gedurende drie minuten geblokkeerd voordat er opnieuw een poging kan worden gedaan.
+
+Tijdens de implementatie van deze functionaliteit trad er opnieuw een fout op. Deze bleek veroorzaakt te zijn door het gebruik van een int-datatype voor tijdsregistratie, terwijl hiervoor een unsigned long vereist is (int waarden tot ongeveer 32.000). Na het aanpassen van het datatype werd dit probleem opgelost.
+
+Na deze aanpassing traden er nog enkele bijkomende foutmeldingen op, die veroorzaakt werden door ontbrekende puntkomma’s. Na het corrigeren van deze kleine fouten functioneerde de code opnieuw correct.
 
 
 ![alt text](foto totale opstelling)
