@@ -6,19 +6,19 @@ Vooralleer er begonnen werd met programmeren werd er informatie opgezocht over d
 * Indien de informatie gevolgd werd over de keypad, dan werd er geen info ingelezen in de seriële monitor (er kwam altijd een error op).
 Dit kwam omdat de TX pin van de keypad aangesloten was op de TX pin van de arduino en idem voor de RX pin. Dit kwam omdat de twee pinnen die informatie (TX) versturen aan elkaar geschakeld waren en kreeg de keypad geen informatie binnen, idem voor de RX pinnen. Dus werd de conclusie gemaakt dat de draden verwisseld moesten worden. 
 We kregen telkens volgende error:
-![alt text](/imgs/Error.png)
+![Error TX en RX](/imgs/Error.png)
 
 <p align="center">
 </p>
 
 * Tijdens het testen verkregen we enkel hokjes te zien op de seriële monitor. 
 Dit probleem was er omdat de draden geschakeld waren op de pinnen TX en RX. Deze twee poorten zorgen ervoor dat er data van de keypad naar de arduino gestuurd kan worden en omgekeerd. Dit zorgde er voor dat de arduino zegmaar twee seriële monitoren had en deze werkten elkaar tegen. Na enkele testen werd er vastgesteld dat de TX en RX pinnen moesten gewijzigd worden door de pinnen 2 en 3 op de arduino.
-![alt text](/imgs/hok.png)
+![Fout hokjes](/imgs/hok.png)
 
 <p align="center">
 </p>
 
-![alt text](/imgs/OP1.jpg)
+![Opstelling Keypad](/imgs/OP1.jpg)
 
 <p align="center">
 </p>
@@ -30,7 +30,7 @@ Om de lockers te kunnen openen met de keypad werd de voorbeeldcode aangepast naa
 * Om te controleren als de code effectief werkt werd er gebruik gemaakt van een led die zal oplichten indien de locker opent. 
 * Het enige probleem waar we nog nog mee zitten is om de code binnen te lezen rechtstreeks van de app. Nu werkt het enkel met cijfercode die voorgeprogrameerd is.
 
-![alt text](/imgs/OP2.jpg)
+![Opstelling Locker](/imgs/OP2.jpg)
 
 <p align="center">
 </p>
@@ -51,7 +51,7 @@ Na verdere analyse (met ondersteuning van AI) werd vastgesteld dat de werkelijke
 
 Tot slot werd bijkomende feedback toegepast om de code te optimaliseren en de leesbaarheid te verbeteren.
 
-![alt text](/imgs/OPD_LCD1.jpg)
+![Opstelling display](/imgs/OPD_LCD1.jpg)
 
 
 [info](https://wiki.seeedstudio.com/Grove-16x2_LCD_Series/)
@@ -67,8 +67,8 @@ Tijdens de implementatie van deze functionaliteit trad er opnieuw een fout op. D
 Na deze aanpassing traden er nog enkele bijkomende foutmeldingen op, die veroorzaakt werden door ontbrekende puntkomma’s. Na het corrigeren van deze kleine fouten functioneerde de code opnieuw correct.
 
 
-![alt text](/imgs/OPE.jpg)
+![Schakeling](/imgs/OPE.jpg)
 
-![alt text](/imgs/OPP.jpg)
+![3D-print](/imgs/OPP.jpg)
 
 * [Code laatste versie](/arduino/Code_laatste_versie/Code_laatste_versie.ino)
