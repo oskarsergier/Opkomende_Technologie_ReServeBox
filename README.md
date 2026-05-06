@@ -6,7 +6,7 @@ De ReServeBox werkt in samenwerking met externe partners, waarbij voedseloversch
 
 Binnen dit project ligt de focus op het ontwikkelen van de elektronica en interactielogica van het lockersysteem. Hiervoor wordt gewerkt met een Arduino, een capacitief touch keypad en een lcd display om de interactie met de gebruiker te ondersteunen. Daarnaast wordt de koppeling gemaakt met de mobiele app, zodat een vlotte en intuïtieve gebruikerservaring ontstaat.
 
-De volledige loopbaan van dit project is terug te vinden bij [Problemen](/docs/problemen.md). Hier kun je vinden op welke problemen we gestoten hebben en hoe deze opgelost werden.
+De volledige loopbaan van dit project is terug te vinden bij [Problemen](/docs/problemen.md). Hier kun je vinden op welke problemen er werden gestoten en hoe deze opgelost werden.
 
 De lijst met de nodige componenten voor dit project zijn terug te vinden in [Requirements](/docs/requirement.md).
 
