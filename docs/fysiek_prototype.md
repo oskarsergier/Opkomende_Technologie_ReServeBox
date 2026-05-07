@@ -1,6 +1,6 @@
 # Fysiek prototype
 
-![Schema](/imgs/schema%20arduino.jpg)
+![Schema](/imgs/elektrisch%20schema.png)
 
 <p align="center">
 </p>
