@@ -228,8 +228,7 @@ void openLocker(int lockerPin) {
 // locker openen
   lcd.clear();
   lcd.setCursor(0,0);
-  lcd.print("Locker opent!");
-  delay(3000);                // laat tekst 3 seconden staan
+  lcd.print("Locker opent!");              
   digitalWrite(lockerPin, HIGH);
   delay(3000);                // 3 seconden open
 
