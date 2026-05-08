@@ -28,10 +28,20 @@ Om dit conflict op te lossen, is de hardwareconfiguratie aangepast. De keypad is
 
 * [Voorbeeld code](/arduino/Voorbeeld%20code/Vb_code_touch_pad/Vb_code_touch_pad.ino)
 
-### Code lockers
-Om de lockers te kunnen openen met de keypad werd de voorbeeldcode aangepast naar een code die gebruikt kan worden om lockers open te doen die na een bepaalde tijd weer sluit. De code is ook voorzien van een knop die controleert indien de code correct is (Dit is de "#" op de keypad). Ook is deze voorzien van een knop om de code te wissen indien de foute code ingegeven werd. (Dit is het "*" op de keypad)
-* Om te controleren als de code effectief werkt werd er gebruik gemaakt van een led die zal oplichten indien de locker opent. 
-* Het enige probleem waar we nog nog mee zitten is om de code binnen te lezen rechtstreeks van de app. Nu werkt het enkel met cijfercode die voorgeprogrameerd is.
+
+### Werking van het keypad en de vergrendeling
+Om de lockers te kunnen bedienen, is de standaardsoftware aangepast naar een specifiek programma dat de veiligheid waarborgt. Wanneer een gebruiker de juiste code invoert, opent de locker en start er een timer; na een vooraf ingestelde tijd vergrendelt het slot automatisch weer.
+
+Voor het gebruik van het keypad zijn twee functietoetsen ingesteld:
+
+Het hekje (#): Deze toets dient als bevestiging om de ingevoerde code te controleren.
+
+Het sterretje (*): Deze toets wist de invoer, zodat de gebruiker opnieuw kan beginnen bij een typefout.
+
+Testfase en toekomstige verbeteringen
+Tijdens het testen hebben we een LED-lampje gebruikt om de werking te controleren. Zodra de juiste code wordt ingevoerd, gaat het lampje branden om aan te geven dat het slot succesvol wordt ontgrendeld.
+
+Op dit moment is er nog één technisch verbeterpunt: het systeem werkt nu alleen met een code die vooraf in de software is vastgelegd. De volgende stap is het realiseren van een koppeling met de app, zodat de toegangscodes rechtstreeks en flexibel vanuit de applicatie kunnen worden ingelezen.
 
 ![Opstelling Locker](/imgs/OP2.jpg)
 
