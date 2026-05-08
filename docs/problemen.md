@@ -11,8 +11,11 @@ We kregen telkens volgende error:
 <p align="center">
 </p>
 
-* Tijdens het testen verkregen we enkel hokjes te zien op de seriële monitor. 
-Dit probleem was er omdat de draden geschakeld waren op de pinnen TX en RX. Deze twee poorten zorgen ervoor dat er data van de keypad naar de arduino gestuurd kan worden en omgekeerd. Dit zorgde er voor dat de arduino zegmaar twee seriële monitoren had en deze werkten elkaar tegen. Na enkele testen werd er vastgesteld dat de TX en RX pinnen moesten gewijzigd worden door de pinnen 2 en 3 op de arduino.
+* Tijdens het validatieproces trad er een defect op waarbij de seriële monitor uitsluitend onleesbare karakters (weergave als blokjes) vertoonde. Dit fenomeen werd veroorzaakt door een conflict op de hardwarematige seriële communicatiepoorten.
+
+De keypad was aanvankelijk aangesloten op de **TX (Transmit)** en **RX (Receive)** pinnen van de Arduino. Deze specifieke pinnen zijn gereserveerd voor de seriële communicatie tussen de microcontroller en de computer. Door externe hardware op deze poorten aan te sluiten, ontstond er een interferentie tussen de datastroom van de keypad en de communicatie met de seriële monitor. In feite trachtten twee verschillende processen gelijktijdig gebruik te maken van hetzelfde communicatiekanaal, wat resulteerde in corrupte data-overdracht.
+
+Om dit conflict op te lossen, is de hardwareconfiguratie aangepast. De keypad is verplaatst naar digitale pinnen **2 en 3**. Door gebruik te maken van softwarematige seriële communicatie op deze alternatieve pinnen, bleven de hardwarematige TX/RX-poorten vrij voor de verbinding met de seriële monitor, waarna de dataoverdracht correct kon worden voltooid.
 ![Fout hokjes](/imgs/hok.png)
 
 <p align="center">
